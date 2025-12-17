@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Congliang Chen"
-description              : "Personal website for Congliang Chen"
+description              : ""
 repository               : "chcoliang/chcoliang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Congliang Chen"
   avatar           : "images/image.jpg"
-  bio              : ""
-  location         : "Shenzhen, China"
-  employer         :
+  bio              : "Research Assistant Professor @ SLAI"
+  location         : 
+  employer         : Shenzhen Loop Area Institute
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=O1P1-EAAAAAJ"
   email            : "chencongliang@slai.edu.cn"
