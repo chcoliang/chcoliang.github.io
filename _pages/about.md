@@ -24,6 +24,15 @@ I am Congliang Chen (陈淙靓). I received my B.S. from the School of Electroni
 My work on distributed Adam establishes theoretical acceleration in multi-worker settings, and I developed a communication-efficient Adam variant that enables neural network training with only 1-bit communication per parameter. I also contributed to Adam-mini, a lightweight and practical optimizer variant tailored for efficient large-scale training. In addition, I worked on GEM, which studies how to maintain output/response diversity during SFT to mitigate mode collapse and improve generalization. My research has been published in venues such as JMLR, IEEE TSP, and top-tier conferences including NeurIPS and ICLR with <a href='https://scholar.google.com/citations?user=O1P1-EAAAAA'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
+**Recruiting:** We’re recruiting **Research Assistants** and **PhD students** to work on LLM optimization and kernel generation & optimization.
+
+Topics include:
+
+- Optimization algorithms for large language models 
+
+- Kernel generation, scheduling, and low-level performance optimization
+
+If you’re interested, please email me with (1) your CV, (2) a short summary of your research/engineering experience, and (3) links to papers/code (if any).
 
 # 📝 Publications 
 
