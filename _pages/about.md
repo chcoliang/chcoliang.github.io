@@ -30,7 +30,7 @@ Topics include:
 
 - Optimization algorithms for large language models 
 
-- Kernel generation, scheduling, and low-level performance optimization
+- Kernel generation and performance optimization
 
 If you’re interested, please email me with (1) your CV, (2) a short summary of your research/engineering experience, and (3) links to papers/code (if any).
 
