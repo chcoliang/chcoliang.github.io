@@ -1,5 +1,10 @@
+{% comment %} Select author data based on page setting or URL path {% endcomment %}
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% elsif page.navigation_data == 'navigation_zh' or page.url contains '/zh' or page.permalink contains '/zh' %}
+  {% assign author = site.author_zh %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
@@ -23,7 +28,7 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {% if author.employer_url %}<a href="{{ author.employer_url }}" target="_blank" rel="noopener noreferrer" style="display: inline;">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>

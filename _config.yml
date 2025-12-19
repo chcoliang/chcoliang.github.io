@@ -26,6 +26,47 @@ author:
   bio              : "Research Assistant Professor @ SLAI"
   location         : 
   employer         : Shenzhen Loop Area Institute
+  employer_url     : "https://www.slai.edu.cn/"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=O1P1-EAAAAAJ"
+  email            : "chencongliang@slai.edu.cn"
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "chcoliang"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : # e.g., "linkedin username"
+  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : # e.g., "https://orcid.org/xxxx"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+# Site Author (Chinese)
+author_zh:
+  name             : "陈淙靓"
+  avatar           : "images/image.jpg"
+  bio              : "研究助理教授 @ SLAI"
+  location         : 
+  employer         : 深圳河套学院
+  employer_url     : "https://www.slai.edu.cn/"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=O1P1-EAAAAAJ"
   email            : "chencongliang@slai.edu.cn"
