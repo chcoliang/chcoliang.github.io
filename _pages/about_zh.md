@@ -25,13 +25,13 @@ redirect_from:
 我在分布式 Adam 方面的工作证明了其在多机训练场景下的理论加速效果，并提出了一种通信高效的 Adam 变体，使得神经网络训练过程中每轮每个参数仅需 1 bit 的通信开销。我也参与了 Adam-mini 的研究，该方法是一种轻量且实用的优化器变体，面向大规模训练的高效需求。此外，我还参与了 GEM 工作，研究如何在大模型监督微调过程中保持输出多样性，以缓解模式坍塌并提升泛化能力。我的研究成果发表于 JMLR、IEEE TSP 等期刊以及 NeurIPS、ICLR 等顶级国际会议，<a href='https://scholar.google.com/citations?user=O1P1-EAAAAA'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>。
 
 
-**招募信息**：我们正在招募**研究助理（Research Assistant**和**博士生**，研究方向包括大模型优化以及算子生成与优化。
+**招募信息**：我们正在招募**研究助理（Research Assistant)**和**博士生**，研究方向包括大模型优化以及计算加速。
 
 研究主题包括：
 
 - 大语言模型的优化算法
 
-- 算子生成与性能优化
+- 模式适配与计算加速
 
 如有兴趣，请发送邮件并附上：（1）个人简历（CV），（2）简要的科研/工程经历介绍，（3）相关论文或代码链接（如有）。
 
