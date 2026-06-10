@@ -3,17 +3,17 @@ main:
   - title: "关于我"
     url: "/zh#about-me"
 
-  - title: "论文列表"
-    url: "/zh#publication"
+  - title: "动态"
+    url: "/zh#news"
 
-  - title: "教育经历"
-    url: "/zh#education"
+  - title: "招聘招生"
+    url: "/zh#recruiting"
 
-  - title: "实习经历"
-    url: "/zh#internship"
+  - title: "研究方向"
+    url: "/zh#research"
 
-  - title: "服务经历"
-    url: "/zh#service"
+  - title: "论文"
+    url: "/zh#selected-work"
 
   - title: "en"
     url: "/"

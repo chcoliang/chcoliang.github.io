@@ -1,11 +1,10 @@
 ---
 permalink: /zh
 title: "陈淙靓"
-excerpt: ""
+excerpt: "深圳河套学院研究助理教授，招收优化算法和机器学习系统方向学生与研究人员。"
 author_profile: true
 navigation_data: navigation_zh
-redirect_from: 
-  - /about/
+redirect_from:
   - /about_zh.html
 ---
 
@@ -16,69 +15,136 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<section class="profile-intro" id="about-me">
+  <p class="profile-intro__kicker">深圳河套学院 · 人工智能理论及系统中心</p>
+  <h1>陈淙靓</h1>
+  <p class="profile-intro__lead">我目前是<a href="https://www.slai.edu.cn/">深圳河套学院</a><a href="https://www.slai.edu.cn/zh-hans/node/377">人工智能理论及系统中心</a>研究助理教授。本科毕业于<a href="https://eecs.pku.edu.cn/">北京大学信息科学技术学院</a>，博士毕业于<a href="https://www.cuhk.edu.cn/zh-hans">香港中文大学（深圳）</a>，导师为<a href="https://tomluo123.github.io/">罗智泉教授</a>。</p>
+  <p>我的总体研究目标，是从数学结构与理论分析出发，构建面向大模型智能体的核心方法能力，并将其转化为真实模型训练与推理任务中的可验证性能增益。</p>
+  <p>我的研究方向包括优化算法和机器学习系统。优化算法方向关注结构化拟牛顿与二阶优化方法、面向稳健泛化能力的训练算法、后训练与对齐优化、分布式优化算法，以及强化学习与智能体训练中的优化方法；机器学习系统方向关注低精度训练与推理、模型适配与参数高效调优、高性能算子生成、基准评测与性能建模。</p>
+  <p class="profile-links">
+    <a href="mailto:chencongliang@slai.edu.cn">邮件</a>
+    <a href="https://scholar.google.com/citations?user=O1P1-EAAAAAJ">Google Scholar</a>
+    <a href="https://github.com/chcoliang">GitHub</a>
+    <a href="https://www.slai.edu.cn/zh-hans/teacher/168">SLAI 主页</a>
+    <a href="/">English</a>
+  </p>
+</section>
 
-# 🧑‍🎓 关于我
+<section class="homepage-block homepage-block--notice" id="recruiting">
+  <h2>招聘与招生</h2>
+  <p><strong>长期招收研究助理、博士研究生申请者和有科研潜力的实习生</strong>，主要包括两个方向：优化算法和机器学习系统。</p>
+  <p>请发送邮件至 <a href="mailto:chencongliang@slai.edu.cn">chencongliang@slai.edu.cn</a>，并附上 CV、成绩单（如有）、一段简短科研/工程经历介绍，以及论文、代码或项目链接。博士生申请还需遵循深圳河套学院官方<a href="https://www.slai.edu.cn/zh-hans/admissions">申请要求</a>与<a href="https://www.slai.edu.cn/zh-hans/page/288">申请方式</a>。</p>
+  <details class="fold-block" open>
+    <summary>展开查看方向与适合背景</summary>
+    <div class="fold-block__content">
+      <h3>优化算法</h3>
+      <ul>
+        <li>结构化拟牛顿与二阶优化方法。</li>
+        <li>面向稳健泛化能力的训练算法与理论分析。</li>
+        <li>后训练与对齐优化算法。</li>
+        <li>面向多机与异构环境的分布式优化算法。</li>
+        <li>强化学习与智能体训练中的优化方法。</li>
+      </ul>
+      <h3>机器学习系统</h3>
+      <ul>
+        <li>低精度训练与推理系统。</li>
+        <li>模型适配、参数高效调优与部署导向微调系统。</li>
+        <li>高性能算子生成、基准评测与性能建模。</li>
+      </ul>
+      <p><strong>适合背景：</strong>具备优化、概率、数值线性代数或机器学习理论基础；熟悉 Python 和深度学习框架；有 CUDA/Triton/系统经验更佳。</p>
+    </div>
+  </details>
+</section>
 
-我是陈淙靓。 我本科毕业于北京大学信息科学技术学院，博士毕业于香港中文大学（深圳），导师为[罗智泉教授](https://tomluo123.github.io/)。目前，我在深圳河套学院担任研究助理教授。我的研究方向主要包括数值计算、大语言模型优化算法，以及算子生成与优化。
+<section class="homepage-block" id="news">
+  <h2>动态</h2>
+  <ul class="news-list">
+    <li><span>2026</span> 招收优化算法和机器学习系统方向研究助理、博士研究生申请者和实习生。</li>
+    <li><span>2025</span> <a href="https://openreview.net/forum?id=iBExhaU3Lc">Adam-mini</a> 和 <a href="https://openreview.net/forum?id=NQEe7B7bSw">GEM 多样性保持 SFT</a> 被 ICLR 2025 接收。</li>
+    <li><span>2024</span> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee0e45ff4de76cbfdf07015a7839f339-Abstract-Conference.html">Why Transformers Need Adam</a> 发表于 NeurIPS 2024。</li>
+  </ul>
+</section>
 
-我在分布式 Adam 方面的工作证明了其在多机训练场景下的理论加速效果，并提出了一种通信高效的 Adam 变体，使得神经网络训练过程中每轮每个参数仅需 1 bit 的通信开销。我也参与了 Adam-mini 的研究，该方法是一种轻量且实用的优化器变体，面向大规模训练的高效需求。此外，我还参与了 GEM 工作，研究如何在大模型监督微调过程中保持输出多样性，以缓解模式坍塌并提升泛化能力。我的研究成果发表于 JMLR、IEEE TSP 等期刊以及 NeurIPS、ICLR 等顶级国际会议，<a href='https://scholar.google.com/citations?user=O1P1-EAAAAA'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>。
+<section class="homepage-block" id="research">
+  <h2>研究方向</h2>
+  <ul class="interest-list">
+    <li><strong>优化算法：</strong>结构化拟牛顿与二阶优化方法、面向稳健泛化能力的训练算法、后训练与对齐优化、分布式优化、强化学习与智能体训练中的优化方法。</li>
+    <li><strong>机器学习系统：</strong>低精度训练与推理、模型适配与参数高效调优、高性能算子生成、基准评测与性能建模。</li>
+  </ul>
+</section>
 
+<section class="homepage-block" id="selected-work">
+  <h2>代表论文</h2>
+  <p class="publication-note">(* 表示共同一作，† 表示通讯作者)。<a href="https://scholar.google.com/citations?user=O1P1-EAAAAAJ"><img class="citation-badge" src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations"></a></p>
 
-**招募信息**：我们正在招募**研究助理（Research Assistant)**和**博士生**，研究方向包括大模型优化以及计算加速。
+  <div class="pub-list">
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <h3><a href="https://openreview.net/forum?id=iBExhaU3Lc">Adam-mini: Use Fewer Learning Rates To Gain More</a></h3>
+        <p>Yushun Zhang*, <strong>Congliang Chen*</strong>, Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, and Ruoyu Sun. ICLR 2025.</p>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-body">
+        <h3><a href="https://openreview.net/forum?id=NQEe7B7bSw">Preserving Diversity in Supervised Fine-Tuning of Large Language Models</a></h3>
+        <p>Ziniu Li, <strong>Congliang Chen</strong>, Tian Xu, Zeyu Qin, Jiancong Xiao, Zhi-Quan Luo, and Ruoyu Sun. ICLR 2025.</p>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2024</div>
+      <div class="pub-body">
+        <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee0e45ff4de76cbfdf07015a7839f339-Abstract-Conference.html">Why Transformers Need Adam: A Hessian Perspective</a></h3>
+        <p>Yushun Zhang, <strong>Congliang Chen</strong>, Tian Ding, Ziniu Li, Ruoyu Sun, and Zhi-Quan Luo. NeurIPS 2024.</p>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2023</div>
+      <div class="pub-body">
+        <h3><a href="https://ieeexplore.ieee.org/abstract/document/10237319/">Efficient-Adam: Communication-Efficient Distributed Adam</a></h3>
+        <p><strong>Congliang Chen</strong>, Li Shen, Wei Liu, and Zhi-Quan Luo. IEEE Transactions on Signal Processing, 2023.</p>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-year">2022</div>
+      <div class="pub-body">
+        <h3><a href="https://www.jmlr.org/papers/v23/20-1438.html">Towards Practical Adam: Non-Convexity, Convergence Theory, and Mini-Batch Acceleration</a></h3>
+        <p><strong>Congliang Chen*</strong>, Li Shen*, Fangyu Zou*, and Wei Liu. JMLR 2022.</p>
+      </div>
+    </div>
+  </div>
 
-研究主题包括：
+  <details class="fold-block" id="publication">
+    <summary>展开更多论文</summary>
+    <div class="fold-block__content">
+      <ul class="publication-list">
+        <li><a href="https://dl.acm.org/doi/abs/10.1145/3470890">Quantized Adam with Error Feedback</a><br><strong>Congliang Chen</strong>, Li Shen, Haozhi Huang, and Wei Liu. ACM Transactions on Intelligent Systems and Technology, 2021.</li>
+        <li><a href="https://ieeexplore.ieee.org/abstract/document/10149826/">A Unified Analysis of AdaGrad with Weighted Aggregation and Momentum Acceleration</a><br>Li Shen, <strong>Congliang Chen</strong>, Fangyu Zou, Zequn Jie, Ju Sun, and Wei Liu. IEEE Transactions on Neural Networks and Learning Systems, 2023.</li>
+        <li><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/b6260ae5566442da053e5ab5d691067a-Abstract-Conference.html">Adam Can Converge Without Any Modification On Update Rules</a><br>Yushun Zhang, <strong>Congliang Chen</strong>, Naichen Shi, Ruoyu Sun, and Zhi-Quan Luo. NeurIPS 2022.</li>
+        <li><a href="https://proceedings.mlr.press/v130/chen21c.html">Communication Efficient Primal-Dual Algorithm for Nonconvex Nonsmooth Distributed Optimization</a><br><strong>Congliang Chen</strong>, Jiawei Zhang, Li Shen, Peilin Zhao, and Zhi-Quan Luo. AISTATS 2021.</li>
+      </ul>
+    </div>
+  </details>
+</section>
 
-- 大语言模型的优化算法
-
-- 模式适配与计算加速
-
-如有兴趣，请发送邮件并附上：（1）个人简历（CV），（2）简要的科研/工程经历介绍，（3）相关论文或代码链接（如有）。
-
-
-<span class='anchor' id='publication'></span>
-
-# 📝 论文列表 
-
-(* indicates equal contributions, † indicates corresponding author).
-
-## 期刊
--  [Towards practical adam: Non-convexity, convergence theory, and mini-batch acceleration](https://www.jmlr.org/papers/v23/20-1438.html)<br> **Congliang Chen\***, Li Shen\*, Fangyu Zou\*, and Wei Liu, Journal of Machine Learning Research 23, no. 229 (2022): 1-47.
-
--   [Efficient-adam: Communication-efficient distributed adam](https://ieeexplore.ieee.org/abstract/document/10237319/) <br> **Congliang Chen**, Li Shen, Wei Liu, and Zhi-Quan Luo, IEEE Transactions on Signal Processing 71 (2023): 3257-3266.
-
--  [Quantized adam with error feedback](https://dl.acm.org/doi/abs/10.1145/3470890) <br>  **Congliang Chen**, Li Shen, Haozhi Huang, and Wei Liu, ACM Transactions on Intelligent Systems and Technology (TIST) 12, no. 5 (2021): 1-26.
-
-- [A unified analysis of AdaGrad with weighted aggregation and momentum acceleration](https://ieeexplore.ieee.org/abstract/document/10149826/)<br> Li Shen, **Congliang Chen**, Fangyu Zou, Zequn Jie, Ju Sun, and Wei Liu, IEEE Transactions on Neural Networks and Learning Systems 35, no. 10 (2023): 14482-14490.
-
-## 会议
-
-
-- [Communication efficient primal-dual algorithm for nonconvex nonsmooth distributed optimization](https://proceedings.mlr.press/v130/chen21c.html) <br>  **Congliang Chen**, Jiawei Zhang, Li Shen, Peilin Zhao, and Zhiquan Luo, In International conference on artificial intelligence and statistics, pp. 1594-1602. PMLR, 2021.
-
-- [Adam-mini: Use fewer learning rates to gain more.](https://openreview.net/forum?id=iBExhaU3Lc)<br> Yushun Zhang\*, **Congliang Chen\***, Ziniu Li, Tian Ding, Chenwei Wu, Diederik P. Kingma, Yinyu Ye, Zhi-Quan Luo, and Ruoyu Sun,  In The Thirteenth International Conference on Learning Representations.
-
-
-- [Preserving Diversity in Supervised Fine-Tuning of Large Language Models](https://openreview.net/forum?id=NQEe7B7bSw)<br> Ziniu Li, **Congliang Chen**, Tian Xu, Zeyu Qin, Jiancong Xiao, Zhi-Quan Luo, and Ruoyu Sun, In The Thirteenth International Conference on Learning Representations.
-
-- [Why transformers need adam: A hessian perspective](https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee0e45ff4de76cbfdf07015a7839f339-Abstract-Conference.html) <br> Yushun Zhang, **Congliang Chen**, Tian Ding, Ziniu Li, Ruoyu Sun, and Zhiquan Luo, Advances in neural information processing systems 37 (2024): 131786-131823.
-
-
-- [Adam can converge without any modification on update rules](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b6260ae5566442da053e5ab5d691067a-Abstract-Conference.html)<br> Yushun Zhang, **Congliang Chen**, Naichen Shi, Ruoyu Sun, and Zhi-Quan Luo, Advances in neural information processing systems 35 (2022): 28386-28399.
-
-<span class='anchor' id='education'></span>
-
-# 📖 教育经历
-- *2018.08 - 2025.03*, 博士，香港中文大学（深圳）。
-- *2014.09 - 2018.06*, 本科， 北京大学。
-
-
-<span class='anchor' id='internship'></span>
-
-# 💻 实习经历
-- *2019.07 - 2023.07*, 腾讯AI Lab，深圳，中国。
-
-<span class='anchor' id='service'></span>
-
-# 🏫 服务经历
-- ICML, NeurIPS, ICLR, ICCV, CVPR等会议审稿人.
+<section class="homepage-block" id="experience">
+  <h2>经历</h2>
+  <div class="compact-columns">
+    <div>
+      <h3>教育经历</h3>
+      <ul>
+        <li>2018.08 - 2025.03，博士，香港中文大学（深圳）。</li>
+        <li>2014.09 - 2018.06，本科，北京大学。</li>
+      </ul>
+    </div>
+    <div>
+      <h3>工作与服务</h3>
+      <ul>
+        <li>2025 - 至今，深圳河套学院研究助理教授。</li>
+        <li>2019.07 - 2023.07，腾讯 AI Lab 实习生，深圳。</li>
+        <li>ICML、NeurIPS、ICLR、ICCV、CVPR 等会议审稿人。</li>
+      </ul>
+    </div>
+  </div>
+</section>

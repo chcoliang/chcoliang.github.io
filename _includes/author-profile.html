@@ -3,8 +3,10 @@
   {% assign author = site.data.authors[page.author] %}
 {% elsif page.navigation_data == 'navigation_zh' or page.url contains '/zh' or page.permalink contains '/zh' %}
   {% assign author = site.author_zh %}
+  {% assign sidebar_description = site.description_zh %}
 {% else %}
   {% assign author = site.author %}
+  {% assign sidebar_description = site.description %}
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
@@ -21,8 +23,8 @@
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+      {% if sidebar_description %}
+        <li><div style="white-space: normal; margin-bottom: 1em;">{{ sidebar_description }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>

@@ -4,7 +4,6 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% comment %} Select navigation data based on page setting or URL path {% endcomment %}
           {% if page.navigation_data %}
             {% assign nav_data = site.data[page.navigation_data] %}
@@ -13,6 +12,12 @@
           {% else %}
             {% assign nav_data = site.data.navigation %}
           {% endif %}
+          {% if page.navigation_data == 'navigation_zh' or page.url contains '/zh' or page.permalink contains '/zh' %}
+            {% assign home_label = "主页" %}
+          {% else %}
+            {% assign home_label = "Home" %}
+          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">{{ home_label }}</a></li>
           {% for link in nav_data.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}

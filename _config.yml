@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Congliang Chen"
-description              : ""
+description              : "Research Assistant Professor at Shenzhen Loop Area Institute. Building large-model agent capabilities from mathematical structure and theory for real training and inference."
+description_zh           : "深圳河套学院研究助理教授，从数学结构与理论分析出发构建大模型智能体核心方法能力，提升真实训练与推理性能。"
+url                      : "https://chcoliang.github.io"
 repository               : "chcoliang/chcoliang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Congliang Chen"
   avatar           : "images/image.jpg"
-  bio              : "Research Assistant Professor @ SLAI"
+  bio              : "Research Assistant Professor @ SLAI · Optimization & ML Systems"
   location         : 
   employer         : Shenzhen Loop Area Institute
   employer_url     : "https://www.slai.edu.cn/"
@@ -63,7 +65,7 @@ author:
 author_zh:
   name             : "陈淙靓"
   avatar           : "images/image.jpg"
-  bio              : "研究助理教授 @ SLAI"
+  bio              : "研究助理教授 @ SLAI · 优化算法与机器学习系统"
   location         : 
   employer         : 深圳河套学院
   employer_url     : "https://www.slai.edu.cn/"
@@ -106,6 +108,7 @@ include:
   - _pages
   - files
 exclude:
+  - codex
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
